@@ -208,8 +208,10 @@ With tempdir() you can do the same thing but with temporary directories.
   - registered extensions for only this test
 - severity
   - a severity level thats applied by some extensions
-- failfast
+- assertSoftly
   - if true, then the assertions are run in soft mode
+- failfast:
+  - if true, then the test engine will stop running after the first failure
 - blockingTest
   - if true, then each test in a spec will be run in a dedicated thread
 - retries
