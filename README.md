@@ -43,12 +43,12 @@ Configuration Levels:
 
 | Test Style | withXXX Function |
 | ------------ | ------------- |
-| FunSpec | withContext, withTests |
+| FunSpec | withContexts, withTests |
 | StringSpec | withData |
-| DescribeSpec | with Context, withDescribes, withIts |
+| DescribeSpec | with Contexts, withDescribes, withIts |
 | ShouldSpec | withContexts, withShoulds |
 | WordSpec | withWhens, withShoulds |
-| BehaviorSpec | withContexts, withGivens, withWhens, withTHens, withAnds |
+| BehaviorSpec | withContexts, withGivens, withWhens, withThens, withAnds |
 | FreeSpec | withContexts, withTests |
 | ExpectSpec | withContexts, withExpects |
 | FeatureSpec | withFeatures. withScenarios |
